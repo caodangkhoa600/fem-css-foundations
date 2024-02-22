@@ -1,0 +1,32 @@
+@import './base.css';
+
+.home .main__heading {
+    font-size: 128px;
+    font-weight: bold;
+}
+
+.home .main__sub-heading {
+    font-size: 40px;
+}
+
+.button-container {
+    display: flex;
+    margin-top: 100px;
+}
+
+.button:not(button:last-of-type) {
+    margin-inline-end: 20px;
+}
+
+
+@media (max-width: 1220px) {
+    .home .main__heading {
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .home .main__sub-heading {
+        font-size: 24px;
+    }
+}
